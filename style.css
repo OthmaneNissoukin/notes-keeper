@@ -1,0 +1,72 @@
+
+body.night-mode {
+    background-color: #161616;
+}
+
+/* For Dark Mode */
+body.night-mode .dark-mode p,
+body.night-mode h1, 
+body.night-mode h2,
+body.night-mode legend,
+body.night-mode label,
+body.night-mode form p {
+    color: #fff;
+}
+
+.dark-mode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.dark-mode-switcher {
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid #d1d1d1;
+    padding: 0px 5px;
+}
+
+.dark-mode-switcher span {
+    display: block;
+    background-color: #1C8BF2;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    transition: all 500ms ease-out;
+}
+
+.dark-mode p {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dark-mode-switcher.active > span {
+    transform: translateX(25px);
+    background-color: gold;
+}
+
+/* End Dark Mode */
+
+input[type="radio"] {
+    height: 40px;
+    width: 40px;
+}
+
+#cyan {
+    background-color: #1C8BF2;
+}
+
+#orange {
+    background-color: #EE5E44;
+}
+
+#green {
+    background-color: #2EAD0B;
+}
+
+#purple {
+    background-color: #740BAD;
+}
+
