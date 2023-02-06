@@ -3,6 +3,17 @@ body.night-mode {
     background-color: #161616;
 }
 
+body,
+h1, 
+form p,
+h2,
+legend,
+label,
+form p {
+    transition: all 500ms ease-out;
+}
+
+
 /* For Dark Mode */
 body.night-mode .dark-mode p,
 body.night-mode h1, 
