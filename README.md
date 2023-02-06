@@ -1,2 +1,8 @@
 # notes-keeper
 Building a notes keeper to practice DOM and Bootstrap.
+
+## Technolgies Used To Build
+ - HTML5
+ - CSS3
+ - Bootstrap5
+ - Javascript
