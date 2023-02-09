@@ -36,6 +36,20 @@ body.night-mode form p {
     background-color: transparent;
     border: 1px solid #d1d1d1;
     padding: 0px 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-mode-switcher i:first-child {
+    color: yellow;
+    font-size: 18px;
+}
+
+.dark-mode-switcher i:last-child {
+    color: #161616;
+    font-size: 18px;
 }
 
 .dark-mode-switcher span {
@@ -45,6 +59,7 @@ body.night-mode form p {
     width: 25px;
     height: 25px;
     transition: all 500ms ease-out;
+    position: absolute;
 }
 
 .dark-mode p {
