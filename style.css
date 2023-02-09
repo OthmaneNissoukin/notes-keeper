@@ -96,3 +96,12 @@ input[type="radio"] {
     background-color: #740BAD;
 }
 
+.form-wrapper {
+    background-color: #16161671;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}

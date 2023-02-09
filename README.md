@@ -1,5 +1,5 @@
 # notes-keeper
-Building a notes keeper to practice DOM and Bootstrap.
+Simple Note Application using pure Javascript with DOM manipulation and using the Local Storage to save setting and data in the browser.
 
 ## Live Version
 [View Demo](https://othmanenissoukin.github.io/notes-keeper/)
