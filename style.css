@@ -105,3 +105,44 @@ input[type="radio"] {
     height: 100vh;
     overflow: auto;
 }
+
+fieldset {
+    overflow: hidden;
+    position: relative;
+}
+
+a.fork-me {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a.fork-me i {
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    right: 7px;
+    transition: all 250ms linear;
+}
+
+a.fork-me::before {
+    content: "";
+    display: block;
+    background-color: #161616b2;
+    width: 100px;
+    height: 150px;
+    transform: skewY(45deg);
+    position: absolute;
+    top: -100px;
+    right: 0;
+    transition: all 250ms linear;
+}
+
+a.fork-me:hover i{
+    color: #1C8BF2;
+}
+
+body.night-mode a.fork-me::before {
+    background-color: #dadada71;
+}
